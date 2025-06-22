@@ -90,7 +90,7 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="container grid lg:grid-cols-2 gap-10 py-20 md:py-32 items-center">
+        <section className="container grid lg:grid-cols-2 gap-10 px-4 md:px-6 py-20 md:py-32 items-center">
           <div className="flex flex-col items-start gap-6">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
               Your Journey to a Healthier Mind Starts Here.
