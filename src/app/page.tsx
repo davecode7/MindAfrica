@@ -154,9 +154,9 @@ export default function Home() {
             </div>
             <div className="relative mt-16">
                 <div className="absolute left-1/2 top-4 hidden h-full w-px -translate-x-1/2 bg-border/50 md:block" aria-hidden="true"></div>
-                <div className="grid grid-cols-1 gap-y-12 md:grid-cols-3 md:gap-x-8">
+                <div className="flex flex-col md:flex-row justify-center items-start gap-y-12 md:gap-x-16">
                     {howItWorksSteps.map((step) => (
-                        <div key={step.title} className="relative flex flex-col items-center text-center">
+                        <div key={step.title} className="relative flex flex-col items-center text-center md:max-w-xs">
                             <div className="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 md:hidden h-full w-px bg-border/50" aria-hidden="true"></div>
                             <div className="flex items-center justify-center h-16 w-16 rounded-full bg-primary/20 text-primary mb-6 ring-8 ring-background z-10">
                                 {step.icon}
