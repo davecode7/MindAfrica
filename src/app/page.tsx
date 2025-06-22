@@ -133,9 +133,9 @@ export default function Home() {
                 We use evidence-based methods to help you achieve mental and emotional balance.
               </p>
             </div>
-            <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-16 flex flex-wrap justify-center gap-8">
               {wellbeingTechniques.map((tech) => (
-                <div key={tech.title} className="flex flex-col items-center text-center p-6 rounded-lg transition-all hover:bg-background/50 hover:shadow-md">
+                <div key={tech.title} className="basis-72 grow flex flex-col items-center text-center p-6 rounded-lg transition-all hover:bg-background/50 hover:shadow-md">
                   {tech.icon}
                   <h3 className="mt-5 text-lg font-semibold">{tech.title}</h3>
                   <p className="mt-2 text-sm text-foreground/60">{tech.description}</p>
